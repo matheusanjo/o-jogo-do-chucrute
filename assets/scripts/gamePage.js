@@ -1,28 +1,28 @@
-var canvas, ctx;
+let canvas, ctx;
 
-window.onload = function() {
+window.onload = function () {
   canvas = document.getElementById("canvas");
   ctx = canvas.getContext("2d");
 
   document.addEventListener("keydown", keyDownEvent);
 
   // velocidade do corpo
-  var x = 8;
+  let x = 8;
   setInterval(draw, 1000 / x);
 };
 
 // tela canvas = 25x25 = 625 
-  var gridSize = (tileSize = 25); 
-  var nextX = (nextY = 0);
+let gridSize = (tileSize = 25);
+let nextX = (nextY = 0);
 
 // Chucrute (corpo)
-var defaultTailSize = 3;
-var tailSize = defaultTailSize;
-var wormTrail = [];
-  var wormX = (wormY = 10);
+let defaultTailSize = 3;
+let tailSize = defaultTailSize;
+let wormTrail = [];
+let wormX = (wormY = 10);
 
 // uvinha kkkk
-var grapeX = (grapeY = 20);
+let grapeX = (grapeY = 20);
 
 // desenha
 function draw() {
@@ -55,18 +55,24 @@ function draw() {
   ctx.fillStyle = "black";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
+  ctx.fillStyle = "purple";
+  ctx.fillRect(grapeX * tileSize, grapeY * tileSize, tileSize, tileSize);
+
   ctx.fillStyle = "green";
-  for (var i = 0; i < wormTrail.length; i++) {
+  for (let i = 0; i < wormTrail.length; i++) {
     ctx.fillRect(
       wormTrail[i].x * tileSize,
       wormTrail[i].y * tileSize,
       tileSize,
       tileSize
     );
+    //mordeu o rabo
+    if (wormTrail[i].x == wormX && wormTrail[i].y == wormY) {
+      tailSize = defaultTailSize;
+    }
   }
-  
-  ctx.fillStyle = "purple";
-  ctx.fillRect(grapeX * tileSize, grapeY * tileSize, tileSize, tileSize);
+
+
 
   //define ordem de crescimento
   wormTrail.push({ x: wormX, y: wormY });

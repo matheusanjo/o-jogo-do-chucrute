@@ -15,17 +15,39 @@ html, body {
 }
 
 body {
-  background: black;
+  background: BLACK;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.start{
+  position: relative;
+  text-align: center;
+  text-decorati: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 150px;
+  font-size: 2.5em;
+}
+
+.start a{
+  text-decoration: none;
+  color:red;
+}
+
+
+.chucrute img{
+  height: 300px;
+  width: 300px;
+}
+
 canvas {
   border: 1px solid white;
 }
 
 .title{
-  font-size: 11.5em;
+  font-size: 15.5em;
   font-weight: normal;
   outline: none;
   text-transform: uppercase;
