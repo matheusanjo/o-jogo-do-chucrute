@@ -8,3 +8,7 @@
 
 [JOGUE AQUI](https://matheusanjo.github.io/o-jogo-do-chucrute/)
 
+
+
+## Slide Show
+[AQUI](https://docs.google.com/presentation/d/1d6CWOvufJwZ93T8eoMWCW0vyVd8uQsdmFZzPWnOrZ2Q/edit#slide=id.p)
