@@ -1,7 +1,9 @@
 # o-jogo-do-chucrute
-O jogo do chucrute foi inspirado no snake game do google, a diferenca e que o chucrute e uma lagarta.
 
-![Alt ou título da imagem](https://blogdojotace.com.br/wp-content/uploads/2009/05/a_bugs_life_peq2.jpg)
+
+![Alt ou título da imagem](https://miro.medium.com/max/1000/1*5Rx-ZS1ACU06tmWkaOTgMw.gif)
+
+
 
 
 
