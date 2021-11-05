@@ -11,4 +11,4 @@
 
 
 ## Slide Show
-[AQUI](https://docs.google.com/presentation/d/1d6CWOvufJwZ93T8eoMWCW0vyVd8uQsdmFZzPWnOrZ2Q/edit#slide=id.p)
+[AQUI](https://docs.google.com/presentation/d/1d6CWOvufJwZ93T8eoMWCW0vyVd8uQsdmFZzPWnOrZ2Q/edit?usp=sharing)
