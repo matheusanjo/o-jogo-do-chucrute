@@ -7,5 +7,5 @@
 
 
 
+[JOGUE AQUI](https://matheusanjo.github.io/o-jogo-do-chucrute/)
 
-https://matheusanjo.github.io/o-jogo-do-chucrute/
